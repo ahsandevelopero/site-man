@@ -1,0 +1,30 @@
+.contact-page {
+  min-height: 100vh;
+  background: hsl(var(--background));
+}
+
+.contact-info-card {
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card));
+  transition: var(--transition-smooth);
+}
+
+.contact-info-card:hover {
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-form-card {
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card));
+}
+
+.contact-form-card form input,
+.contact-form-card form textarea {
+  transition: var(--transition-smooth);
+}
+
+.contact-form-card form input:focus,
+.contact-form-card form textarea:focus {
+  border-color: hsl(var(--accent));
+  box-shadow: 0 0 0 3px hsl(var(--accent) / 0.1);
+}

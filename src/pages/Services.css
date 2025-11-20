@@ -1,0 +1,26 @@
+.services-page {
+  min-height: 100vh;
+  background: hsl(var(--background));
+}
+
+.service-card {
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card));
+  transition: var(--transition-smooth);
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: hsl(var(--accent) / 0.3);
+}
+
+.service-card ul {
+  margin-top: 1rem;
+}
+
+.service-card ul li {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0;
+}

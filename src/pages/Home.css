@@ -1,0 +1,14 @@
+.home-page {
+  min-height: 100vh;
+}
+
+.feature-card {
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card));
+  transition: var(--transition-smooth);
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
